@@ -3,6 +3,7 @@ resource "aws_vpc" "vorx-vpc-prod" {
 
   tags = {
     Name = "Vorx-PROD"
+    Managed = "Terraform"
   }
 }
 
